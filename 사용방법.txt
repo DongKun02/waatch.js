@@ -1,0 +1,21 @@
+1. 커맨드창에 들어간 후 maestro-watch-server가 있는 경로로 이동합니다.
+예시: cd D:\Dongkun\maestro-watch-server
+
+2. 해당 커맨드창에서 "npm install" 명령어를 칩니다.
+예시: npm install
+
+3. setting 폴더에 들어갑니다. 
+
+4. config.js 파일에 들어가 속성이 'watchingDir'의 값을 watch받을 폴더를 절대경로로 입력합니다.
+예시: watchingDir: 'D:/회사/maestro-watch-server/watchFolder',
+
+5. maestro.js 파일에 들어간 후 MAESTRO CTIP에 IP, PORT, TOKEN을 입력합니다. 
+
+6. 그 후 커맨드창에서 "npm start"로 서버를 실행시킵니다. 
+현재 경로는 "D:\회사\maestro-watch-server" 입니다. (1번 예시 경로)
+예시: npm start
+
+watch 사용 방법
+url에 'YOUR__IP__:8000/server/on'를 입력합니다. (maestro watch를 실행시킵니다.)
+url에 'YOUR__IP__:8000/server/off'를 입력합니다. (maestro watch를 종료시킵니다.)
+
